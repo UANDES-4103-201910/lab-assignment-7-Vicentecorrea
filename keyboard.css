@@ -1,3 +1,51 @@
 /* Define your CSS styles here */
 /* Remember to validate your CSS at https://jigsaw.w3.org/css-validator/ */
 
+.flex-container {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 5vw;
+    background-color: Black;
+}
+
+.key {
+  	font-family: "Calibri";
+  	color: White;
+    line-height: 4vw;
+  	text-align: center;
+    margin: 2px;
+    border-radius: 7%;
+    font-size: 2vw;
+    border-style: outset;
+}
+
+.square-key {
+ 	width: 5vw;
+}
+
+.rectangular-key {
+	width: 10vw;
+}
+
+.space-key {
+	width: 40vw;
+}
+
+.key:active {
+    border-style: inset;
+}
+
+.key:hover {
+    opacity: .8;
+}
+
+.control-key {
+    border-color: DarkOrange;
+    background: linear-gradient(to bottom, DarkOrange, OrangeRed);
+}
+
+.character-key {
+    border-color: SlateGrey;
+    background: linear-gradient(to bottom, SlateGrey, DarkSlateGrey);
+}
